@@ -40,6 +40,7 @@ def entry_data():
             data=[firstname,lastname,title,age,nationnality,degree,grade,year]
             sheet.append(data)
             workbook.save(filepath)
+            messagebox.showinfo("Success", "Data saved successfully!")
 
 
         else:
